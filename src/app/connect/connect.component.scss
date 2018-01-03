@@ -1,0 +1,19 @@
+@import '../../../src/variables';
+@import '../../../node_modules/bootstrap/scss/bootstrap';
+
+.custom-container {
+    min-height: 200px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.custom-text-box,
+.custom-textarea-box {
+    width: 100%;
+    border: 1px solid $primary;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    &:focus {
+        background: rgba(255,255,255,0.2);
+        color: white;
+    }
+}

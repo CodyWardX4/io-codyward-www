@@ -1,0 +1,17 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+  <a class="navbar-brand d-none d-lg-block" href="/"><img src="./assets/images/navbar-logo.svg" height="40px" alt="header-logo"></a>
+  <a class="navbar-brand d-lg-none" href="/"><img src="./assets/images/navbar-icon.svg" height="40px" alt="header-icon"></a>
+
+  <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" (click)="isCollapsed = !isCollapsed">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="!isCollapsed">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="#" alt="home">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" alt="about">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" alt="project">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="#" alt="connect">Connect</a></li>
+    </ul>
+  </div>
+</nav>
