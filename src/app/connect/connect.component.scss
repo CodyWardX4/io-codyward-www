@@ -1,11 +1,6 @@
 @import '../../../src/variables';
 @import '../../../node_modules/bootstrap/scss/bootstrap';
 
-.custom-container {
-    min-height: 200px;
-    max-width: 1200px;
-    margin: 0px auto;
-}
 .custom-text-box,
 .custom-textarea-box {
     width: 100%;
@@ -23,7 +18,7 @@
     height: 50px;
 }
 .custom-textarea-box {
-    min-height: 100px;
+    min-height: 150px;
 }
 .social-icon {
     border-radius: 25px;
@@ -41,22 +36,28 @@
 //Placeholder Overrides
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color: $secondary !important;
+    font-weight: 100 !important;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
    color: $secondary !important;
    opacity: 1 !important;
+   font-weight: 100 !important;
 }
 *::-moz-placeholder { /* Mozilla Firefox 19+ */
    color: $secondary !important; 
    opacity: 1 !important;
+   font-weight: 100 !important;
 }
 *:-ms-input-placeholder { /* Internet Explorer 10-11 */
    color: $secondary !important;
+   font-weight: 100 !important;
 }
 *::-ms-input-placeholder { /* Microsoft Edge */
    color: $secondary !important;
+   font-weight: 100 !important;
 }
 
 *::placeholder { /* Most modern browsers support this now. */
    color: $secondary !important;
+   font-weight: 100 !important;
 }
