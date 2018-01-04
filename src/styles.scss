@@ -21,6 +21,10 @@ body {
 //Bootstrap Overrides
 
 //Custom Classes
+.theme-standard {
+    background: white !important;
+    color: $primary !important;
+}
 .theme-primary{
     background: $primary !important;
     color: $secondary !important;
@@ -33,9 +37,9 @@ body {
     max-width: 1200px;
     margin: 0px auto;
 }
-
-//Twitter Overrides
-.SandboxRoot {
-    background: red !important;
-    color: red !important;
+.profile-image {
+    border-radius: 200px !important;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
 }
