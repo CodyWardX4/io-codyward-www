@@ -9,11 +9,54 @@
 .custom-text-box,
 .custom-textarea-box {
     width: 100%;
-    border: 1px solid $primary;
-    background: rgba(255,255,255,0.1);
+    border: 1px solid $secondary;
+    border-radius: 0px;
+    background: none;
     color: white;
     &:focus {
-        background: rgba(255,255,255,0.2);
+        background: none;
+        border: 1px solid $secondary;
         color: white;
     }
+}
+.custom-text-box {
+    height: 50px;
+}
+.custom-textarea-box {
+    min-height: 100px;
+}
+.social-icon {
+    border-radius: 25px;
+    border: 1px solid $primary;
+    line-height: 31px;
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    &:hover {
+        background: $primary;
+        color: $secondary;
+    }
+}
+
+//Placeholder Overrides
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: $secondary !important;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: $secondary !important;
+   opacity: 1 !important;
+}
+*::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: $secondary !important; 
+   opacity: 1 !important;
+}
+*:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: $secondary !important;
+}
+*::-ms-input-placeholder { /* Microsoft Edge */
+   color: $secondary !important;
+}
+
+*::placeholder { /* Most modern browsers support this now. */
+   color: $secondary !important;
 }

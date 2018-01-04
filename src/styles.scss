@@ -29,11 +29,14 @@ button:focus {outline:0;}
         }
     }
 }
+.btn {
+    border-radius: 0px !important;
+}
 
 //Custom Classes
 .theme-primary{
     background: $primary !important;
-    color: white !important;
+    color: $secondary !important;
 }
 .theme-secondary {
     background: $secondary !important;
