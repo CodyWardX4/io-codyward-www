@@ -20,8 +20,8 @@
       "prefix": "app",
       "styles": [
         "styles.scss",
-        "../node_modules/font-awesome/css/font-awesome.scss",
-        "../node_modules/@ibm/type/scss/ibm-type.scss"
+        "../node_modules/@ibm/type/scss/ibm-type.scss",
+        "../node_modules/font-awesome/scss/font-awesome.scss"
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.slim.min.js",

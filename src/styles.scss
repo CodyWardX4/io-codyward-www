@@ -15,7 +15,7 @@ body {
 
 .btn {
     border-radius: 0px !important;
-    padding: 10px 40px 10px 40px !important;
+    padding: 10px 20px 10px 20px !important;
     font-size: 1.2em !important;
 }
 //Bootstrap Overrides
@@ -32,4 +32,10 @@ body {
 .custom-container {
     max-width: 1200px;
     margin: 0px auto;
+}
+
+//Twitter Overrides
+.SandboxRoot {
+    background: red !important;
+    color: red !important;
 }
