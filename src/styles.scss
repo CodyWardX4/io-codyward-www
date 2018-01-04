@@ -1,34 +1,18 @@
 @import 'variables';
 @import '../node_modules/bootstrap/scss/bootstrap';
 
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: '../node_modules/@ibm/type/scss/ibm-type';
+}
+
 //General Overrides
 button:focus {outline:0;}
-// @font-face {
-//     font-family: 'Plex';
-//     src: url('../assets/fonts/IBMPlexSans-Regular') format('eot');
-//   }
 
-//Bootstrap Overrides
-.navbar-toggler {
-    border: 0px !important;
-    border-radius: 0px !important;
-    &:focus {
-        border: 0px !important;
-    }
+body {
+    font-family: 'IBM Plex Sans';
 }
-.custom-toggler {
-    .navbar-toggler-icon {
-        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,198,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    }
-}
-.nav-item {
-    a {
-        color: white !important;
-        &:hover {
-            color: $secondary !important;
-        }
-    }
-}
+
 .btn {
     border-radius: 0px !important;
 }
