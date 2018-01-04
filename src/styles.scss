@@ -16,6 +16,11 @@ body {
 .btn {
     border-radius: 0px !important;
 }
+//Bootstrap Overrides
+.h1 {
+    font-weight: 900;
+    font-size: 4em;
+}
 
 //Custom Classes
 .theme-primary{
