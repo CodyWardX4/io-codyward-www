@@ -13,14 +13,29 @@ body {
     font-family: 'IBM Plex Sans';
 }
 
+//Bootstrap Overrides
 .btn {
     border-radius: 0px !important;
     padding: 10px 20px 10px 20px !important;
-    font-size: 1.2em !important;
 }
-//Bootstrap Overrides
+
+.btn-outline-primary {
+    &:hover {color: $secondary !important;}
+}
+
+.btn-outline-secondary {
+    &:hover {color: $primary !important;}
+}
 
 //Custom Classes
+.btn-outline-white {
+    background: none;
+    border: 1px solid $primary;
+    &:hover {
+        background: $primary;
+        color: white
+    }
+}
 .theme-standard {
     background: white !important;
     color: $primary !important;
@@ -42,4 +57,24 @@ body {
     width: 100%;
     max-width: 250px;
     height: auto;
+}
+.btn-custom-secondary {
+    background: none !important;
+    border: 1px solid $primary !important;
+    color: $primary !important;
+    &:hover {
+        background: $primary !important;
+        color: $secondary !important;
+    }
+}
+.no-overflow {
+    display: block !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+}
+
+// Hack to visually show twitter feed with no border-radius
+iframe {
+    background: white !important;
+    padding: 5px !important; 
 }

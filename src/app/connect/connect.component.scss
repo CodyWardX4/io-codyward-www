@@ -22,15 +22,15 @@
 }
 .social-icon {
     border-radius: 25px;
-    border: 1px solid $primary;
+    border: 1px solid $secondary;
     line-height: 34px;
     font-size: 25px;
     height: 50px;
     width: 50px;
-    &:hover {
-        background: $primary;
-        color: $secondary;
-    }
+    // &:hover {
+    //     background: $secondary;
+    //     color: $primary;
+    // }
 }
 
 //Placeholder Overrides
