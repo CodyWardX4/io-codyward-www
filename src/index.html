@@ -7,7 +7,10 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!--Recaptcha-->
   <script src='https://www.google.com/recaptcha/api.js'></script>
+  
 </head>
 <body>
   <app-root></app-root>
@@ -16,5 +19,16 @@
   <div class="d-none">
     <a class="twitter-timeline d-none" href="https://twitter.com/CodyWardX4?ref_src=twsrc%5Etfw"></a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </div>
+
+  <!--Google Analytics-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112599205-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112599205-1');
+  </script>
+
 </body>
 </html>

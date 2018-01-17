@@ -78,3 +78,9 @@ iframe {
     background: white !important;
     padding: 5px !important; 
 }
+
+// Hack credit: https://geekgoddess.com/how-to-resize-the-google-nocaptcha-recaptcha/
+.g-recaptcha {
+    transform:scale(0.77);
+    transform-origin:0 0;
+}
