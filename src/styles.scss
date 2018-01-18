@@ -72,6 +72,11 @@ body {
     box-sizing: border-box !important;
     overflow: hidden !important;
 }
+.banner {
+    background-image: url("./assets/images/grid.svg") !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important; 
+}
 
 // Hack to visually show twitter feed with no border-radius
 iframe {
@@ -83,4 +88,10 @@ iframe {
 .g-recaptcha {
     transform:scale(0.77);
     transform-origin:0 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .banner {
+        background-image: none !important;
+    }
 }
